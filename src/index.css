@@ -1,0 +1,47 @@
+input {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.simple-keyboard {
+  width: 99%;
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+}
+
+.jszhuyin {
+  display: none;
+}
+
+/* #output:focus .simple-keyboard{
+  display:block;
+} */
+
+p#composition {
+  position: fixed;
+  bottom: 270px;
+  color: #4a4a4a;
+}
+
+ol#candidates {
+  padding: 0px;
+  position: fixed;
+  bottom: 230px;
+  background-color: #989898;
+  width: 100%;
+}
+
+ol#candidates li {
+  display: table-cell;
+  padding: 5px 15px 5px 5px;
+  color: #f4f4f4;
+  cursor: pointer;
+}
